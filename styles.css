@@ -1,0 +1,377 @@
+/* GLobal Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alegreya', serif;
+  color: #1C1C1C;
+  scroll-behavior: smooth;
+}
+
+/* Navbar Section styles */
+.sticky-nav-grid-container {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9;
+  /* grid-template-columns: 50% 50%; */
+  padding: 10px 16px;
+}
+.inner-flex-containers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.inner-flex-containers a {
+  padding:0px 20px;
+  word-break:keep-all;
+  text-decoration: none;
+}
+.links-container {
+  font-size: 14px;
+}
+.logos-container {
+  justify-content: flex-end;
+  font-size: 15px;
+  letter-spacing: 0.35em;
+}
+
+/* Holly Spirits Section styles*/
+
+.holly-spirits {
+  height: 382px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/old\ jesus\ top\ drinking\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.holly-spirits .holly-spirits-title {
+  font-family: Alegreya SC;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* Drinking Club Section styles */
+
+.drinking-club {
+  text-align: center;
+  margin-top: 46px;
+}
+.drinking-club-title {
+  font-family: Alegreya SC;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.3em;
+  margin-bottom: 40px;
+}
+.drinking-club .blockchain {
+  margin-bottom: 40px;
+}
+.drinking-club p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.25em;
+}
+.drinking-club p span {
+  font-weight: bold;
+
+}
+
+/* Images Container*/
+
+#images-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 51px;
+  border-top: 2px solid #1C1C1C;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#images-container p span {
+  font-weight: bold;
+}
+#images-container p {
+  letter-spacing: 0.25em;
+}
+/* Mint Styling section */
+#mint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 76px !important;
+  width: 200px;
+  height: 78px;
+  margin: auto;
+}
+#mint button {
+  cursor: pointer;
+  background: #1C1C1C;
+  border-radius: 15px;
+  font-family: Alegreya SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 61px;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+  padding: 8px 28px;
+  text-transform: uppercase;
+}
+#mint button:focus {
+  outline: none;
+}
+
+/* BJDC TOKEN Styles*/
+
+.bjdc-token {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/Rectangle\ 4.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 75px;
+  padding: 65px;
+}
+.bjdc-token h2 {
+  font-family: Alegreya SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0.3em;
+  color: #E5E5E5;
+  margin-bottom: 50px;
+}
+.bjdc-token .first-paragraph {
+  margin-bottom: 50px;
+}
+.bjdc-token p {
+  width: 46%;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 45px;
+  letter-spacing: 0.25em;
+  color: #E5E5E5;
+}
+
+/* Join Discord Styles*/
+
+#discord-container {
+  margin-top: 51px;
+  border-top: 2px solid #1C1C1C !important;
+  border-bottom: 2px solid black;
+}
+#discord-container .discord-para-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#discord-container .discord-para-container p a{
+  text-decoration: none;
+  border-bottom: 2px solid #a09c9c;
+}
+/* Our History Styles*/
+
+.history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 63px;
+  font-family: Alegreya;
+  font-size: 16px;
+  line-height: 45px;
+  letter-spacing: 0.25em;
+  font-style: normal;
+  color: #1C1C1C;
+}
+.history-title {
+  font-family: Alegreya SC;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0.3em;
+  margin-bottom: 57px;
+}
+.history-flex-container {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.history-flex-container .Y-2021 h4 {
+  text-align: center;
+}
+
+/* ROAD MAP STYLES */
+
+#roadmap-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 82px;
+  border-top: 2px solid #1C1C1C;
+  border-bottom: 2px solid black;
+}
+#roadmap-container .grid-container {
+  display: grid;
+  padding: 82px 0 82px 82px;
+}
+.grid-container .left-flex-container {
+  grid-column: 3 / 4;
+}
+.grid-container .left-flex-container h2{
+  font-family: Alegreya SC;
+  text-align: center;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0.3em;
+  margin-bottom: 21px;
+}
+.grid-container .paragraph-container {
+  grid-column: 7/8;
+  margin-left: 40px;
+  font-size: 20px;
+  line-height: 45px;
+  letter-spacing: 0.25em;
+  color: #1C1C1C;
+  font-style: normal;
+}
+.grid-container .paragraph-container p span{
+  font-weight: 700;
+}
+
+/* THE TEAM STYLES */
+
+#the-team {
+  width: 80%;
+  margin: auto;
+}
+#the-team .team-flex-container {
+  padding: 82px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#the-team .team-flex-container p{
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.25em;
+  color: #000000;
+}
+.member-description {
+  margin-left: 55px;
+}
+#the-team .team-flex-container .para-container{
+  margin-bottom: 100px;
+  margin-top: 82px;
+}
+#the-team .team-flex-container .team-member{
+  display: flex;
+}
+#the-team .team-flex-container .line-bottom{
+  width: 65%;
+  height: 2px;
+  background-color: #1C1C1C;
+  margin: 50px auto ;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 1024px) {
+  #the-team .team-member {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #the-team .team-member .member-description {
+    margin-left: 0;
+  }
+  #roadmap-container {
+    width: 100%;
+  }
+  #roadmap-container .grid-container .paragraph-container {
+    grid-column: 1/1; 
+    padding: 20px;
+
+  }
+  #roadmap-container .grid-container .left-flex-container {
+    grid-column: 1/1;
+    margin: auto;
+  }
+  #roadmap-container .grid-container {
+    padding: 82px 0;
+  }
+  .bjdc-token p {
+    width:80%;
+  }
+}
+  #images-container .discord-para-container p {
+    display: none;
+  }
+  
+@media only screen and (max-width: 900px) {
+  #the-team .team-flex-container{
+    padding: 82px 0;
+  }
+  #images-container {
+    position: relative;
+  }
+  #images-container p {
+    position: absolute;
+    bottom: -30px;
+  }
+  .discord-container {
+    width: 100%;
+  }
+  .bjdc-token p {
+    width:100%;
+  }
+  .history-flex-container .Y-2021 {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .nav-bar .links-container a:first-child{
+    display: none;
+  }
+  .nav-bar .links-container a:last-child{
+    display: none;
+  }
+  .sticky-nav-grid-container {
+    flex-direction: column;
+    /* position: sticky;
+    top: 0;
+    bottom: 0; */
+  }
+  .inner-flex-containers{
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  .discord-container {
+    flex-direction: column;
+  }
+}
+
