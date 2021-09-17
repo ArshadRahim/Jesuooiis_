@@ -46,7 +46,7 @@
 
 .holly-spirits {
   height: 382px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/old\ jesus\ top\ drinking\ 1.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./photo_assets/old\ jesus\ top\ drinking\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -142,7 +142,7 @@
 /* BJDC TOKEN Styles*/
 
 .bjdc-token {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/Rectangle\ 4.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./photo_assets/Rectangle\ 4.png);
   display: flex;
   justify-content: center;
   align-items: center;
