@@ -113,30 +113,15 @@
 }
 /* Mint Styling section */
 #mint {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 76px !important;
-  width: 200px;
-  height: 78px;
-  margin: auto;
 }
-#mint button {
-  cursor: pointer;
-  background: #1C1C1C;
-  border-radius: 15px;
-  font-family: Alegreya SC;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 45px;
-  line-height: 61px;
-  letter-spacing: 0.3em;
-  color: #FFFFFF;
-  padding: 8px 28px;
-  text-transform: uppercase;
-}
-#mint button:focus {
-  outline: none;
+#mint h2 {
+text-align: center;
+font-family: Alegreya SC;
+font-size: 26px;
+line-height: 35px;
+letter-spacing: 0.3em;
+text-transform: uppercase;
 }
 
 /* BJDC TOKEN Styles*/
@@ -228,8 +213,7 @@
 
 #roadmap-container {
   width: 80%;
-  margin: auto;
-  margin-top: 82px;
+  margin: 82px auto;
   border-top: 2px solid #1C1C1C;
   border-bottom: 2px solid black;
 }
@@ -261,54 +245,10 @@
   font-weight: 700;
 }
 
-/* THE TEAM STYLES */
-
-#the-team {
-  width: 80%;
-  margin: auto;
-}
-#the-team .team-flex-container {
-  padding: 82px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-#the-team .team-flex-container p{
-  line-height: 45px;
-  text-align: center;
-  letter-spacing: 0.25em;
-  color: #000000;
-}
-.member-description {
-  margin-left: 55px;
-}
-#the-team .team-flex-container .para-container{
-  margin-bottom: 100px;
-  margin-top: 82px;
-}
-#the-team .team-flex-container .team-member{
-  display: flex;
-}
-#the-team .team-flex-container .line-bottom{
-  width: 65%;
-  height: 2px;
-  background-color: #1C1C1C;
-  margin: 50px auto ;
-}
-
 
 
 /* Media Queries */
 @media only screen and (max-width: 1024px) {
-  #the-team .team-member {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #the-team .team-member .member-description {
-    margin-left: 0;
-  }
   #roadmap-container {
     width: 100%;
   }
@@ -333,9 +273,6 @@
   }
   
 @media only screen and (max-width: 900px) {
-  #the-team .team-flex-container{
-    padding: 82px 0;
-  }
   #images-container {
     position: relative;
   }
@@ -362,6 +299,9 @@
   }
   .sticky-nav-grid-container {
     flex-direction: column;
+    /* position: sticky;
+    top: 0;
+    bottom: 0; */
   }
   .inner-flex-containers{
     justify-content: space-evenly;

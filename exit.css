@@ -1,0 +1,95 @@
+/* GLobal Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alegreya', serif;
+  color: #1C1C1C;
+  scroll-behavior: smooth;
+}
+
+/*BJDC Section Styles*/
+
+.BJDC {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./photo_assets/old\ jesus\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 530px;
+}
+.BJDC h2 {
+  font-family: Alegreya SC;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+}
+
+/*PARA Section Styles*/
+
+.para {
+  margin: 102px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para p {
+  width: 534px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.35em;
+}
+
+/*JOIN CLUB Section Styles*/
+
+.join-club {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./photo_assets/old\ jesus\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100vh;
+  margin-bottom: 82px;
+}
+.join-club p {
+  text-align: center;
+font-weight: bold;
+font-size: 25px;
+line-height: 45px;
+letter-spacing: 0.2em;
+color: #E5E5E5;
+}
+.join-club button {
+  background: rgba(196, 196, 196, 0.26);
+  border-radius: 10px;
+  font-family: Alegreya SC;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0.25em;
+  color: #E5E5E5;
+  padding: 11px 15px;
+  cursor: pointer;
+}
+.join-club button:focus {
+  outline: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 700px) {
+  .BJDC h2 {
+    text-align: center;
+  }
+  .para {
+    padding: 20px;
+  }
+  .join-club button {
+    padding: 6px 8px;
+    font-size: 18px;
+  }
+}
